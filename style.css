@@ -183,7 +183,9 @@ form textarea {
  /* this is for mobile screens */
  @media all and (min-width: 600px) {
   p {
-    font-size: 20px;
+    font-size: 18px;
+    font-family: Work Sans, sans-serif;
+}
   }
 
   header {
