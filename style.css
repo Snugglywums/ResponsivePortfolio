@@ -185,6 +185,7 @@ form textarea {
  @media all and (min-width: 600px) {
   p {
     font-size: 20px;
+    font-family: 'Book Antiqua', cursive;
 }
   }
 
