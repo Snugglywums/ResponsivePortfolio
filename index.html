@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Raven's Responsive Web Portfolio</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<!--- Header section with nav links -->
+<header>
+	<h1 id="Home">Raven McGuffin</h1>
+	<nav>
+		<ul id="menu">
+			<li><a href="#Home">Home</a></li>
+			<li><a href="#AboutMe">About</a></li>
+			<li><a href="#Project">Project</a></li>
+			<li><a href="#Contact">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+
+<!--- Main Content -->
+<body>
+	<main>
+
+<!--- Intro -->
+    <section>
+			<h2>Intro</h2>
+			<div class="group">
+				<div class="item item-double">
+					<div id="ProfilePic">
+						<img src="Pictures/Raven-Profile.JPG" height="475" width="280" alt="Profile Pic of Myself"> 
+					</div>
+					<h3>You should get to know me!</h3>
+					<p>I am a Web Developer and Software Engineer located in Texas. 
+					My passion is technology and working with others. 
+					When I'm not working or studying, you can find me online in a video game lobby on top of the leaderboards.</p>
+				</div>
+			</div>
+    </section>
+
+<!--- About Me -->
+    <section>
+			<h2 id="AboutMe">About Me</h2>
+			<div class="group">
+				<div class="item">
+					<h3>My Hobbies</h3>
+					<p> Playing video games has been a hobby of mine since I was a kid. 
+						I have a vast knowledge of different genres throughout the years 
+						across many platforms. The design portion of video games
+						has drawn me into coding and web development. One day I hope to be able to build websites for 
+						gaming companies that draw in and reach large audiences of players.
+						</p>
+				</div>
+				<div class="item item-double">
+					<h3>Skills</h3>
+					<p> My background in the customer service industry has made me highly 
+						qualified to serve people and work well with others. I look forward to working with
+						great programmers that I can learn from and build with. I love learning and have 
+						mastered many computer languages to help further my career path. </p>
+			</div>
+		</section>
+
+<!--- Project section  -->
+		<section>
+	  <h2 id="Project">Project Title - Coming Soon!</h2>	
+	  <div class="group">				  
+		  <div class="item">
+			  <h3>Project Description</h3>
+			  <p>This is where I will describe my project </p>
+		  </div>
+  <div class="item item-double">
+			  <h3>Link to Project</h3>
+			  <p>One day I will include a link to that awesome project here!</p>
+		  </div>
+		</section>
+
+<!--- Contact section-->
+		  <section>
+			<h2 id="Contact">Contact</h2>
+<!--- Contact Form  -->
+			<div class="item">
+				<form action="https://formspree.io/xpzyepno" method="POST" >
+				<label for="user-name">Name:</label>
+				<input id="user-name" type="text" name="name">
+	  
+				<label for="user-email">Email:</label>
+				<input id="user-email" type="text" name="_replyto">
+
+					
+				<label for="user-message">Your message:</label>
+				<textarea id="message" name="message"></textarea>
+				<button class="myButton" type="submit">Submit</button>
+			  </form>
+			</div>
+<!--- Contact Links -->
+			<div class="group">
+				<div class="item">
+					<h3>Email</h3>
+					<p>Yahoo: Ruhruhraven@yahoo.com </p>
+					<img src="Pictures/Email-Icon.jpg" width="75" alt="Email Logo"/>
+				</div>
+				<div class="item item-double">
+					<h3>Github</h3>
+					<p><a href="https://github.com/Snugglywums">
+						GitHub</a></p>    
+						<a href="https://github.com/Snugglywums">
+						  <img src="Pictures/GitHub-Logo.png" width="75" alt="GitHub Logo"/>
+						</a>
+				</div>
+        <div class="item">
+					<h3>LinkedIn</h3>
+					<p><a href="https://www.linkedin.com/in/raven-mcguffin-6a379077/">
+						LinkedIn</a></p>
+						<a href="https://www.linkedin.com/in/raven-mcguffin-6a379077/">
+						   <img src="/Pictures/Symbol-LinkedIn.jpg" width="75" alt="LinkedIn Logo BW"/> </a>
+				</div>
+			</div>
+		</section>  
+    
+	</main>
+	<script src="script.js">
+	</script>
+</body>
+</html>
